@@ -20,19 +20,20 @@ async function formatItems(itemsJson: ItemsJson) {
   const bedrock = json.default as BedrockConversion;
 
   const textures: Record<string, string> = {};
-  const items = itemsJson.items
-    .filter((item) => !bedrock.ignore.includes(item.id))
-    .map(({ id, readable, texture }): Item => {
-      const _id = id.split(":")[1];
-      textures[_id] = texture;
+  const items: Record<string, Item> = {};
 
-      return {
-        _id,
-        readable,
-        identifier: bedrock.conversions[id]?.id ?? id,
-        data: bedrock.conversions[id]?.data,
-      };
-    });
+  for (const item of itemsJson.items) {
+    if (bedrock.ignore.includes(item.id)) continue;
+
+    const id = item.id.split(":")[1];
+    textures[id] = item.texture;
+
+    items[id] = {
+      name: item.readable,
+      identifier: bedrock.conversions[item.id]?.id ?? item.id,
+      data: bedrock.conversions[item.id]?.data,
+    };
+  }
 
   return {
     items,
@@ -46,12 +47,13 @@ await Deno.mkdir("./dist/textures", { recursive: true });
 const itemJson = await fetch(
   "https://unpkg.com/minecraft-textures@1.19.0/dist/textures/json/1.19.json",
 ).then((res) => res.json());
+
 const { items, textures } = await formatItems(itemJson);
 
-for (const { _id } of items) {
+for (const id in items) {
   Deno.writeFile(
-    `./dist/textures/${_id}.png`,
-    decode(textures[_id].split(",")[1]),
+    `./dist/textures/${id}.png`,
+    decode(textures[id].split(",")[1]),
   );
 }
 
