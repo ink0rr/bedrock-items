@@ -30,5 +30,7 @@ items.get("/:id/texture", async (ctx) => {
   }
 
   ctx.response.headers.set("Cache-Control", "max-age=2592000");
+  ctx.response.headers.set("Content-Type", "image/png");
+
   ctx.response.body = await Deno.readFile(`./dist/textures/${id}.png`);
 });

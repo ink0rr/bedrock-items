@@ -12,7 +12,10 @@ recipe.get("/", async (ctx) => {
   const output = atob(params.get("output") ?? "");
 
   const image = await createRecipeImage(input, output);
+
   ctx.response.headers.set("Cache-Control", "max-age=2592000");
+  ctx.response.headers.set("Content-Type", "image/png");
+
   ctx.response.body = await image.encode();
 });
 
