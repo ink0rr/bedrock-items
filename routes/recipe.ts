@@ -44,19 +44,21 @@ async function createRecipeImage(
 ) {
   const base = await loadImage("./data/base.png");
 
+  const loadItemTexture = (item: string) => {
+    if (items.get(item)) {
+      return loadImage(`./dist/textures/${item}.png`);
+    } else if (customItems[item]) {
+      return loadImage(decodeBase64Image(customItems[item]));
+    } else {
+      return loadImage(`./data/missing.png`);
+    }
+  };
+
   let x = 0;
   let y = 0;
   for (const input of inputs) {
-    let image: Image;
     if (input) {
-      if (items.get(input)) {
-        image = await loadImage(`./dist/textures/${input}.png`);
-      } else if (customItems[input]) {
-        image = await loadImage(decodeBase64Image(customItems[input]));
-      } else {
-        image = await loadImage(`./data/missing.png`);
-      }
-
+      const image = await loadItemTexture(input);
       image.fit(48, 48);
       base.composite(image, 6 + x * 54, 6 + y * 54);
     }
@@ -66,8 +68,8 @@ async function createRecipeImage(
     }
   }
 
-  if (items.get(output)) {
-    const image = await loadImage(`./dist/textures/${output}.png`);
+  if (output) {
+    const image = await loadItemTexture(output);
     image.fit(48, 48);
     base.composite(image, 300, 72);
   }
