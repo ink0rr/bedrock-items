@@ -1,6 +1,7 @@
-import { Router } from "oak";
 import { Image } from "imagescript";
+import { Router } from "oak";
 import itemsJson from "../dist/items.json" assert { type: "json" };
+import { decodeBase64Image } from "../utils/image.ts";
 
 export const recipe = new Router();
 const items = new Map(Object.entries(itemsJson));
@@ -10,8 +11,9 @@ recipe.get("/", async (ctx) => {
 
   const input = atob(params.get("input") ?? "").split(",");
   const output = atob(params.get("output") ?? "");
+  const customItems = parseCustomItems(params.get("customItems") ?? "");
 
-  const image = await createRecipeImage(input, output);
+  const image = await createRecipeImage(input, output, customItems);
 
   ctx.response.headers.set("Cache-Control", "max-age=2592000");
   ctx.response.headers.set("Content-Type", "image/png");
@@ -19,19 +21,43 @@ recipe.get("/", async (ctx) => {
   ctx.response.body = await image.encode();
 });
 
-async function loadImage(path: string) {
-  return Image.decode(await Deno.readFile(path));
+function parseCustomItems(stringParam: string) {
+  const params = new URLSearchParams(stringParam);
+  const customItems: Record<string, string> = {};
+  params.forEach((value, key) => {
+    customItems[atob(key)] = value;
+  });
+  return customItems;
 }
 
-async function createRecipeImage(inputs: string[], output: string) {
+async function loadImage(image: string | Uint8Array) {
+  if (typeof image === "string") {
+    return Image.decode(await Deno.readFile(image));
+  }
+  return Image.decode(image);
+}
+
+async function createRecipeImage(
+  inputs: string[],
+  output: string,
+  customItems: Record<string, string>,
+) {
   const base = await loadImage("./data/base.png");
 
   let x = 0;
   let y = 0;
   for (const input of inputs) {
-    if (items.get(input)) {
-      const image = await loadImage(`./dist/textures/${input}.png`);
-      image.scale(1.5);
+    let image: Image;
+    if (input) {
+      if (items.get(input)) {
+        image = await loadImage(`./dist/textures/${input}.png`);
+      } else if (customItems[input]) {
+        image = await loadImage(decodeBase64Image(customItems[input]));
+      } else {
+        image = await loadImage(`./data/missing.png`);
+      }
+
+      image.fit(48, 48);
       base.composite(image, 6 + x * 54, 6 + y * 54);
     }
     if (++x % 3 === 0) {
@@ -42,7 +68,7 @@ async function createRecipeImage(inputs: string[], output: string) {
 
   if (items.get(output)) {
     const image = await loadImage(`./dist/textures/${output}.png`);
-    image.scale(1.5);
+    image.fit(48, 48);
     base.composite(image, 300, 72);
   }
 
