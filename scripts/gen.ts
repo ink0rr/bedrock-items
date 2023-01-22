@@ -1,8 +1,8 @@
 // Generator script for dist/
 
-import { decode } from "std/encoding/base64.ts";
 import { BedrockConversion } from "../types/BedrockConversion.ts";
 import { Item } from "../types/Item.ts";
+import { decodeBase64Image } from "../utils/image.ts";
 
 // Format for the fetched items data
 interface ItemsJson {
@@ -53,7 +53,7 @@ const { items, textures } = await formatItems(itemJson);
 for (const id in items) {
   Deno.writeFile(
     `./dist/textures/${id}.png`,
-    decode(textures[id].split(",")[1]),
+    decodeBase64Image(textures[id]),
   );
 }
 
