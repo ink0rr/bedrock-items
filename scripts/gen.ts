@@ -1,47 +1,9 @@
 // Generator script for dist/
 
-import { BedrockConversion } from "../types/BedrockConversion.ts";
-import { Item } from "../types/Item.ts";
-import { decodeBase64Image } from "../utils/image.ts";
+import { formatItems } from "./formatItems.ts";
+import { decodeBase64Image } from "./image.ts";
 
-// Format for the fetched items data
-interface ItemsJson {
-  items: {
-    readable: string;
-    id: string;
-    texture: string;
-  }[];
-}
-
-async function formatItems(itemsJson: ItemsJson) {
-  const json = await import("../data/bedrockConversion.json", {
-    assert: { type: "json" },
-  });
-  const bedrock = json.default as BedrockConversion;
-
-  const textures: Record<string, string> = {};
-  const items: Record<string, Item> = {};
-
-  for (const item of itemsJson.items) {
-    if (bedrock.ignore.includes(item.id)) continue;
-
-    const id = item.id.split(":")[1];
-    textures[id] = item.texture;
-
-    items[id] = {
-      name: item.readable,
-      identifier: bedrock.conversions[item.id]?.id ?? item.id,
-      data: bedrock.conversions[item.id]?.data,
-    };
-  }
-
-  return {
-    items,
-    textures,
-  };
-}
-
-await Deno.remove("./dist", { recursive: true });
+await Deno.remove("./dist", { recursive: true }).catch(() => {});
 await Deno.mkdir("./dist/textures", { recursive: true });
 
 const itemJson = await fetch(
@@ -51,10 +13,7 @@ const itemJson = await fetch(
 const { items, textures } = await formatItems(itemJson);
 
 for (const id in items) {
-  Deno.writeFile(
-    `./dist/textures/${id}.png`,
-    decodeBase64Image(textures[id]),
-  );
+  Deno.writeFile(`./dist/textures/${id}.png`, decodeBase64Image(textures[id]));
 }
 
 Deno.writeTextFile("./dist/items.json", JSON.stringify(items));

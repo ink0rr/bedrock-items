@@ -1,8 +1,12 @@
 {
-  "importMap": "import_map.json",
+  "fmt": {
+    "options": {
+      "lineWidth": 120
+    }
+  },
   "tasks": {
-    "dev": "deno run --allow-net --allow-read --watch server.ts",
-    "start": "deno run --allow-net --allow-read server.ts",
+    "dev": "deno run --allow-net --allow-read --watch src/main.ts",
+    "start": "deno run --allow-net --allow-read src/main.ts",
     "gen": "deno run --allow-all ./scripts/gen.ts"
   }
 }

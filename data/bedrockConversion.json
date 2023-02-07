@@ -1,5 +1,5 @@
 {
-  "credit": "https://github.com/destruc7i0n/crafting/blob/master/src/assets/bedrock.json",
+  "credits": "https://github.com/destruc7i0n/crafting/blob/master/src/assets/bedrock.json",
   "conversions": {
     "minecraft:granite": {
       "id": "minecraft:stone",
