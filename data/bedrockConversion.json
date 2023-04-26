@@ -101,28 +101,6 @@
       "id": "minecraft:double_stone_block_slab",
       "data": 6
     },
-    "minecraft:oak_log": {
-      "id": "minecraft:log"
-    },
-    "minecraft:spruce_log": {
-      "id": "minecraft:log",
-      "data": 1
-    },
-    "minecraft:birch_log": {
-      "id": "minecraft:log",
-      "data": 2
-    },
-    "minecraft:jungle_log": {
-      "id": "minecraft:log",
-      "data": 3
-    },
-    "minecraft:acacia_log": {
-      "id": "minecraft:log2"
-    },
-    "minecraft:dark_oak_log": {
-      "id": "minecraft:log2",
-      "data": 1
-    },
     "minecraft:oak_wood": {
       "id": "minecraft:wood"
     },
@@ -277,69 +255,6 @@
     },
     "minecraft:dead_bush": {
       "id": "minecraft:deadbush"
-    },
-    "minecraft:white_wool": {
-      "id": "minecraft:wool"
-    },
-    "minecraft:orange_wool": {
-      "id": "minecraft:wool",
-      "data": 1
-    },
-    "minecraft:magenta_wool": {
-      "id": "minecraft:wool",
-      "data": 2
-    },
-    "minecraft:light_blue_wool": {
-      "id": "minecraft:wool",
-      "data": 3
-    },
-    "minecraft:yellow_wool": {
-      "id": "minecraft:wool",
-      "data": 4
-    },
-    "minecraft:lime_wool": {
-      "id": "minecraft:wool",
-      "data": 5
-    },
-    "minecraft:pink_wool": {
-      "id": "minecraft:wool",
-      "data": 6
-    },
-    "minecraft:gray_wool": {
-      "id": "minecraft:wool",
-      "data": 7
-    },
-    "minecraft:light_gray_wool": {
-      "id": "minecraft:wool",
-      "data": 8
-    },
-    "minecraft:cyan_wool": {
-      "id": "minecraft:wool",
-      "data": 9
-    },
-    "minecraft:purple_wool": {
-      "id": "minecraft:wool",
-      "data": 10
-    },
-    "minecraft:blue_wool": {
-      "id": "minecraft:wool",
-      "data": 11
-    },
-    "minecraft:brown_wool": {
-      "id": "minecraft:wool",
-      "data": 12
-    },
-    "minecraft:green_wool": {
-      "id": "minecraft:wool",
-      "data": 13
-    },
-    "minecraft:red_wool": {
-      "id": "minecraft:wool",
-      "data": 14
-    },
-    "minecraft:black_wool": {
-      "id": "minecraft:wool",
-      "data": 15
     },
     "minecraft:dandelion": {
       "id": "minecraft:yellow_flower"
@@ -515,29 +430,6 @@
     },
     "minecraft:snow_block": {
       "id": "minecraft:snow"
-    },
-    "minecraft:oak_fence": {
-      "id": "minecraft:fence"
-    },
-    "minecraft:spruce_fence": {
-      "id": "minecraft:fence",
-      "data": 1
-    },
-    "minecraft:birch_fence": {
-      "id": "minecraft:fence",
-      "data": 2
-    },
-    "minecraft:jungle_fence": {
-      "id": "minecraft:fence",
-      "data": 3
-    },
-    "minecraft:dark_oak_fence": {
-      "id": "minecraft:fence",
-      "data": 5
-    },
-    "minecraft:acacia_fence": {
-      "id": "minecraft:fence",
-      "data": 4
     },
     "minecraft:oak_fence_gate": {
       "id": "minecraft:fence_gate"
