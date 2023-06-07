@@ -690,69 +690,6 @@
       "id": "minecraft:double_stone_block_slab2",
       "data": 3
     },
-    "minecraft:white_carpet": {
-      "id": "minecraft:carpet"
-    },
-    "minecraft:orange_carpet": {
-      "id": "minecraft:carpet",
-      "data": 1
-    },
-    "minecraft:magenta_carpet": {
-      "id": "minecraft:carpet",
-      "data": 2
-    },
-    "minecraft:light_blue_carpet": {
-      "id": "minecraft:carpet",
-      "data": 3
-    },
-    "minecraft:yellow_carpet": {
-      "id": "minecraft:carpet",
-      "data": 4
-    },
-    "minecraft:lime_carpet": {
-      "id": "minecraft:carpet",
-      "data": 5
-    },
-    "minecraft:pink_carpet": {
-      "id": "minecraft:carpet",
-      "data": 6
-    },
-    "minecraft:gray_carpet": {
-      "id": "minecraft:carpet",
-      "data": 7
-    },
-    "minecraft:light_gray_carpet": {
-      "id": "minecraft:carpet",
-      "data": 8
-    },
-    "minecraft:cyan_carpet": {
-      "id": "minecraft:carpet",
-      "data": 9
-    },
-    "minecraft:purple_carpet": {
-      "id": "minecraft:carpet",
-      "data": 10
-    },
-    "minecraft:blue_carpet": {
-      "id": "minecraft:carpet",
-      "data": 11
-    },
-    "minecraft:brown_carpet": {
-      "id": "minecraft:carpet",
-      "data": 12
-    },
-    "minecraft:green_carpet": {
-      "id": "minecraft:carpet",
-      "data": 13
-    },
-    "minecraft:red_carpet": {
-      "id": "minecraft:carpet",
-      "data": 14
-    },
-    "minecraft:black_carpet": {
-      "id": "minecraft:carpet",
-      "data": 15
-    },
     "minecraft:terracotta": {
       "id": "minecraft:hardened_clay"
     },
