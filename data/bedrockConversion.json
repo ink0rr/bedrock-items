@@ -1240,9 +1240,6 @@
     "minecraft:stonecutter": {
       "id": "minecraft:stonecutter_block"
     },
-    "minecraft:trader_llama_spawn_egg": {
-      "id": "minecraft:llama_spawn_egg"
-    },
     "minecraft:mushroom_stem": {
       "id": "minecraft:brown_mushroom_block",
       "data": 15
