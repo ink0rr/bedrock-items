@@ -739,69 +739,6 @@
     "minecraft:light_gray_glazed_terracotta": {
       "id": "minecraft:silver_glazed_terracotta"
     },
-    "minecraft:white_concrete": {
-      "id": "minecraft:concrete"
-    },
-    "minecraft:orange_concrete": {
-      "id": "minecraft:concrete",
-      "data": 1
-    },
-    "minecraft:magenta_concrete": {
-      "id": "minecraft:concrete",
-      "data": 2
-    },
-    "minecraft:light_blue_concrete": {
-      "id": "minecraft:concrete",
-      "data": 3
-    },
-    "minecraft:yellow_concrete": {
-      "id": "minecraft:concrete",
-      "data": 4
-    },
-    "minecraft:lime_concrete": {
-      "id": "minecraft:concrete",
-      "data": 5
-    },
-    "minecraft:pink_concrete": {
-      "id": "minecraft:concrete",
-      "data": 6
-    },
-    "minecraft:gray_concrete": {
-      "id": "minecraft:concrete",
-      "data": 7
-    },
-    "minecraft:light_gray_concrete": {
-      "id": "minecraft:concrete",
-      "data": 8
-    },
-    "minecraft:cyan_concrete": {
-      "id": "minecraft:concrete",
-      "data": 9
-    },
-    "minecraft:purple_concrete": {
-      "id": "minecraft:concrete",
-      "data": 10
-    },
-    "minecraft:blue_concrete": {
-      "id": "minecraft:concrete",
-      "data": 11
-    },
-    "minecraft:brown_concrete": {
-      "id": "minecraft:concrete",
-      "data": 12
-    },
-    "minecraft:green_concrete": {
-      "id": "minecraft:concrete",
-      "data": 13
-    },
-    "minecraft:red_concrete": {
-      "id": "minecraft:concrete",
-      "data": 14
-    },
-    "minecraft:black_concrete": {
-      "id": "minecraft:concrete",
-      "data": 15
-    },
     "minecraft:white_concrete_powder": {
       "id": "minecraft:concrete_powder"
     },
