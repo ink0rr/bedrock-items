@@ -1,6 +1,5 @@
-import { serve } from "https://deno.land/std@0.176.0/http/server.ts";
-import { cors } from "https://deno.land/x/hono@v2.7.6/middleware.ts";
-import { Hono } from "https://deno.land/x/hono@v2.7.6/mod.ts";
+import { cors } from "https://deno.land/x/hono@v3.11.7/middleware.ts";
+import { Hono } from "https://deno.land/x/hono@v3.11.7/mod.ts";
 import { readJson } from "../utils/json.ts";
 
 const app = new Hono();
@@ -37,4 +36,4 @@ app.get("/:id/texture", async (ctx) => {
   return ctx.newResponse(await Deno.readFile(`./dist/textures/${id}.png`), 200);
 });
 
-serve(app.fetch);
+Deno.serve(app.fetch);
