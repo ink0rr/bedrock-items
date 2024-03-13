@@ -1,7 +1,6 @@
-import { serve } from "https://deno.land/std@0.194.0/http/server.ts";
-import { cors } from "https://deno.land/x/hono@v3.3.0/middleware.ts";
-import { Hono } from "https://deno.land/x/hono@v3.3.0/mod.ts";
-import items from "../dist/items.json" assert { type: "json" };
+import { cors } from "https://deno.land/x/hono@v4.1.0/middleware.ts";
+import { Hono } from "https://deno.land/x/hono@v4.1.0/mod.ts";
+import items from "../dist/items.json" with { type: "json" };
 
 const app = new Hono();
 
@@ -22,4 +21,4 @@ app.get("/:id", (ctx) => {
   return ctx.json(item);
 });
 
-serve(app.fetch);
+Deno.serve(app.fetch);
