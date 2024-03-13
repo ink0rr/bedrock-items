@@ -1,9 +1,6 @@
 {
   "credits": "https://github.com/destruc7i0n/crafting/blob/master/src/assets/bedrock.json",
   "conversions": {
-    "minecraft:grass_block": {
-      "id": "minecraft:grass"
-    },
     "minecraft:coarse_dirt": {
       "id": "minecraft:dirt",
       "data": 1
@@ -53,75 +50,6 @@
     "minecraft:quartz_slab": {
       "id": "minecraft:double_stone_block_slab",
       "data": 6
-    },
-    "minecraft:oak_wood": {
-      "id": "minecraft:wood"
-    },
-    "minecraft:spruce_wood": {
-      "id": "minecraft:wood",
-      "data": 1
-    },
-    "minecraft:birch_wood": {
-      "id": "minecraft:wood",
-      "data": 2
-    },
-    "minecraft:jungle_wood": {
-      "id": "minecraft:wood",
-      "data": 3
-    },
-    "minecraft:acacia_wood": {
-      "id": "minecraft:wood",
-      "data": 4
-    },
-    "minecraft:dark_oak_wood": {
-      "id": "minecraft:wood",
-      "data": 5
-    },
-    "minecraft:stripped_oak_wood": {
-      "id": "minecraft:wood",
-      "data": 8
-    },
-    "minecraft:stripped_spruce_wood": {
-      "id": "minecraft:wood",
-      "data": 9
-    },
-    "minecraft:stripped_birch_wood": {
-      "id": "minecraft:wood",
-      "data": 10
-    },
-    "minecraft:stripped_jungle_wood": {
-      "id": "minecraft:wood",
-      "data": 11
-    },
-    "minecraft:stripped_acacia_wood": {
-      "id": "minecraft:wood",
-      "data": 12
-    },
-    "minecraft:stripped_dark_oak_wood": {
-      "id": "minecraft:wood",
-      "data": 13
-    },
-    "minecraft:oak_leaves": {
-      "id": "minecraft:leaves"
-    },
-    "minecraft:spruce_leaves": {
-      "id": "minecraft:leaves",
-      "data": 1
-    },
-    "minecraft:birch_leaves": {
-      "id": "minecraft:leaves",
-      "data": 2
-    },
-    "minecraft:jungle_leaves": {
-      "id": "minecraft:leaves",
-      "data": 3
-    },
-    "minecraft:acacia_leaves": {
-      "id": "minecraft:leaves2"
-    },
-    "minecraft:dark_oak_leaves": {
-      "id": "minecraft:leaves2",
-      "data": 1
     },
     "minecraft:wet_sponge": {
       "id": "minecraft:sponge",
@@ -246,29 +174,6 @@
     "minecraft:oxeye_daisy": {
       "id": "minecraft:red_flower",
       "data": 8
-    },
-    "minecraft:oak_slab": {
-      "id": "minecraft:wooden_slab"
-    },
-    "minecraft:spruce_slab": {
-      "id": "minecraft:wooden_slab",
-      "data": 1
-    },
-    "minecraft:birch_slab": {
-      "id": "minecraft:wooden_slab",
-      "data": 2
-    },
-    "minecraft:jungle_slab": {
-      "id": "minecraft:wooden_slab",
-      "data": 3
-    },
-    "minecraft:acacia_slab": {
-      "id": "minecraft:wooden_slab",
-      "data": 4
-    },
-    "minecraft:dark_oak_slab": {
-      "id": "minecraft:wooden_slab",
-      "data": 5
     },
     "minecraft:smooth_stone_slab": {
       "id": "minecraft:double_stone_block_slab"
