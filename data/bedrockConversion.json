@@ -5,29 +5,6 @@
       "id": "minecraft:dirt",
       "data": 1
     },
-    "minecraft:oak_sapling": {
-      "id": "minecraft:sapling"
-    },
-    "minecraft:spruce_sapling": {
-      "id": "minecraft:sapling",
-      "data": 1
-    },
-    "minecraft:birch_sapling": {
-      "id": "minecraft:sapling",
-      "data": 2
-    },
-    "minecraft:jungle_sapling": {
-      "id": "minecraft:sapling",
-      "data": 3
-    },
-    "minecraft:acacia_sapling": {
-      "id": "minecraft:sapling",
-      "data": 4
-    },
-    "minecraft:dark_oak_sapling": {
-      "id": "minecraft:sapling",
-      "data": 5
-    },
     "minecraft:red_sand": {
       "id": "minecraft:sand",
       "data": 1
@@ -139,41 +116,6 @@
     },
     "minecraft:dandelion": {
       "id": "minecraft:yellow_flower"
-    },
-    "minecraft:poppy": {
-      "id": "minecraft:red_flower"
-    },
-    "minecraft:blue_orchid": {
-      "id": "minecraft:red_flower",
-      "data": 1
-    },
-    "minecraft:allium": {
-      "id": "minecraft:red_flower",
-      "data": 2
-    },
-    "minecraft:azure_bluet": {
-      "id": "minecraft:red_flower",
-      "data": 3
-    },
-    "minecraft:red_tulip": {
-      "id": "minecraft:red_flower",
-      "data": 4
-    },
-    "minecraft:orange_tulip": {
-      "id": "minecraft:red_flower",
-      "data": 5
-    },
-    "minecraft:white_tulip": {
-      "id": "minecraft:red_flower",
-      "data": 6
-    },
-    "minecraft:pink_tulip": {
-      "id": "minecraft:red_flower",
-      "data": 7
-    },
-    "minecraft:oxeye_daisy": {
-      "id": "minecraft:red_flower",
-      "data": 8
     },
     "minecraft:smooth_stone_slab": {
       "id": "minecraft:double_stone_block_slab"
@@ -618,44 +560,6 @@
       "id": "minecraft:coral_block",
       "data": 12
     },
-    "minecraft:tube_coral_fan": {
-      "id": "minecraft:coral_fan"
-    },
-    "minecraft:brain_coral_fan": {
-      "id": "minecraft:coral_fan",
-      "data": 1
-    },
-    "minecraft:bubble_coral_fan": {
-      "id": "minecraft:coral_fan",
-      "data": 2
-    },
-    "minecraft:fire_coral_fan": {
-      "id": "minecraft:coral_fan",
-      "data": 3
-    },
-    "minecraft:horn_coral_fan": {
-      "id": "minecraft:coral_fan",
-      "data": 4
-    },
-    "minecraft:dead_horn_coral_fan": {
-      "id": "minecraft:coral_fan_dead",
-      "data": 4
-    },
-    "minecraft:dead_brain_coral_fan": {
-      "id": "minecraft:coral_fan_dead",
-      "data": 1
-    },
-    "minecraft:dead_bubble_coral_fan": {
-      "id": "minecraft:coral_fan_dead",
-      "data": 2
-    },
-    "minecraft:dead_fire_coral_fan": {
-      "id": "minecraft:coral_fan_dead",
-      "data": 3
-    },
-    "minecraft:dead_tube_coral_fan": {
-      "id": "minecraft:coral_fan_dead"
-    },
     "minecraft:andesite_slab": {
       "id": "minecraft:double_stone_block_slab3",
       "data": 3
@@ -667,10 +571,6 @@
     "minecraft:brick_wall": {
       "id": "minecraft:cobblestone_wall",
       "data": 6
-    },
-    "minecraft:cornflower": {
-      "id": "minecraft:red_flower",
-      "data": 9
     },
     "minecraft:cut_red_sandstone_slab": {
       "id": "minecraft:double_stone_block_slab4",
@@ -705,10 +605,6 @@
     "minecraft:granite_wall": {
       "id": "minecraft:cobblestone_wall",
       "data": 2
-    },
-    "minecraft:lily_of_the_valley": {
-      "id": "minecraft:red_flower",
-      "data": 10
     },
     "minecraft:mossy_cobblestone_slab": {
       "id": "minecraft:double_stone_block_slab2",
