@@ -103,49 +103,14 @@
     "minecraft:cobweb": {
       "id": "minecraft:web"
     },
-    "minecraft:grass": {
-      "id": "minecraft:tallgrass",
-      "data": 1
-    },
-    "minecraft:fern": {
-      "id": "minecraft:tallgrass",
-      "data": 2
-    },
     "minecraft:dead_bush": {
       "id": "minecraft:deadbush"
     },
     "minecraft:dandelion": {
       "id": "minecraft:yellow_flower"
     },
-    "minecraft:smooth_stone_slab": {
-      "id": "minecraft:double_stone_block_slab"
-    },
-    "minecraft:petrified_oak_slab": {
-      "id": "minecraft:double_stone_block_slab",
-      "data": 2
-    },
-    "minecraft:cobblestone_slab": {
-      "id": "minecraft:double_stone_block_slab",
-      "data": 3
-    },
-    "minecraft:brick_slab": {
-      "id": "minecraft:double_stone_block_slab",
-      "data": 4
-    },
-    "minecraft:stone_brick_slab": {
-      "id": "minecraft:double_stone_block_slab",
-      "data": 5
-    },
-    "minecraft:sandstone_slab": {
-      "id": "minecraft:double_stone_block_slab",
-      "data": 1
-    },
     "minecraft:red_sandstone_slab": {
       "id": "minecraft:double_stone_block_slab2"
-    },
-    "minecraft:nether_brick_slab": {
-      "id": "minecraft:double_stone_block_slab",
-      "data": 7
     },
     "minecraft:spawner": {
       "id": "minecraft:mob_spawner"
@@ -303,29 +268,6 @@
     },
     "minecraft:terracotta": {
       "id": "minecraft:hardened_clay"
-    },
-    "minecraft:sunflower": {
-      "id": "minecraft:double_plant"
-    },
-    "minecraft:lilac": {
-      "id": "minecraft:double_plant",
-      "data": 1
-    },
-    "minecraft:tall_grass": {
-      "id": "minecraft:double_plant",
-      "data": 2
-    },
-    "minecraft:large_fern": {
-      "id": "minecraft:double_plant",
-      "data": 3
-    },
-    "minecraft:rose_bush": {
-      "id": "minecraft:double_plant",
-      "data": 4
-    },
-    "minecraft:peony": {
-      "id": "minecraft:double_plant",
-      "data": 5
     },
     "minecraft:purpur_pillar": {
       "id": "minecraft:purpur_block",
@@ -520,45 +462,6 @@
     },
     "minecraft:tipped_arrow": {
       "id": "minecraft:arrow"
-    },
-    "minecraft:tube_coral_block": {
-      "id": "minecraft:coral_block"
-    },
-    "minecraft:brain_coral_block": {
-      "id": "minecraft:coral_block",
-      "data": 1
-    },
-    "minecraft:bubble_coral_block": {
-      "id": "minecraft:coral_block",
-      "data": 2
-    },
-    "minecraft:fire_coral_block": {
-      "id": "minecraft:coral_block",
-      "data": 3
-    },
-    "minecraft:horn_coral_block": {
-      "id": "minecraft:coral_block",
-      "data": 4
-    },
-    "minecraft:dead_tube_coral_block": {
-      "id": "minecraft:coral_block",
-      "data": 8
-    },
-    "minecraft:dead_brain_coral_block": {
-      "id": "minecraft:coral_block",
-      "data": 9
-    },
-    "minecraft:dead_bubble_coral_block": {
-      "id": "minecraft:coral_block",
-      "data": 10
-    },
-    "minecraft:dead_fire_coral_block": {
-      "id": "minecraft:coral_block",
-      "data": 11
-    },
-    "minecraft:dead_horn_coral_block": {
-      "id": "minecraft:coral_block",
-      "data": 12
     },
     "minecraft:andesite_slab": {
       "id": "minecraft:double_stone_block_slab3",
