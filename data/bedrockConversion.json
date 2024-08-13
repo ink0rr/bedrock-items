@@ -1,28 +1,8 @@
 {
   "credits": "https://github.com/destruc7i0n/crafting/blob/master/src/assets/bedrock.json",
   "conversions": {
-    "minecraft:coarse_dirt": {
-      "id": "minecraft:dirt",
-      "data": 1
-    },
-    "minecraft:red_sand": {
-      "id": "minecraft:sand",
-      "data": 1
-    },
     "minecraft:nether_quartz_ore": {
       "id": "minecraft:quartz_ore"
-    },
-    "minecraft:chiseled_quartz_block": {
-      "id": "minecraft:quartz_block",
-      "data": 1
-    },
-    "minecraft:quartz_pillar": {
-      "id": "minecraft:quartz_block",
-      "data": 2
-    },
-    "minecraft:smooth_quartz": {
-      "id": "minecraft:quartz_block",
-      "data": 3
     },
     "minecraft:quartz_slab": {
       "id": "minecraft:double_stone_block_slab",
@@ -32,70 +12,8 @@
       "id": "minecraft:sponge",
       "data": 1
     },
-    "minecraft:stone_bricks": {
-      "id": "minecraft:stonebrick"
-    },
-    "minecraft:mossy_stone_bricks": {
-      "id": "minecraft:stonebrick",
-      "data": 1
-    },
-    "minecraft:cracked_stone_bricks": {
-      "id": "minecraft:stonebrick",
-      "data": 2
-    },
-    "minecraft:chiseled_stone_bricks": {
-      "id": "minecraft:stonebrick",
-      "data": 3
-    },
     "minecraft:bricks": {
       "id": "minecraft:brick_block"
-    },
-    "minecraft:chiseled_sandstone": {
-      "id": "minecraft:sandstone",
-      "data": 1
-    },
-    "minecraft:cut_sandstone": {
-      "id": "minecraft:sandstone",
-      "data": 2
-    },
-    "minecraft:smooth_sandstone": {
-      "id": "minecraft:sandstone",
-      "data": 3
-    },
-    "minecraft:chiseled_red_sandstone": {
-      "id": "minecraft:red_sandstone",
-      "data": 1
-    },
-    "minecraft:cut_red_sandstone": {
-      "id": "minecraft:red_sandstone",
-      "data": 2
-    },
-    "minecraft:smooth_red_sandstone": {
-      "id": "minecraft:red_sandstone",
-      "data": 3
-    },
-    "minecraft:infested_stone": {
-      "id": "minecraft:monster_egg"
-    },
-    "minecraft:infested_cobblestone": {
-      "id": "minecraft:monster_egg",
-      "data": 1
-    },
-    "minecraft:infested_stone_bricks": {
-      "id": "minecraft:monster_egg",
-      "data": 2
-    },
-    "minecraft:infested_mossy_stone_bricks": {
-      "id": "minecraft:monster_egg",
-      "data": 3
-    },
-    "minecraft:infested_cracked_stone_bricks": {
-      "id": "minecraft:monster_egg",
-      "data": 4
-    },
-    "minecraft:infested_chiseled_stone_bricks": {
-      "id": "minecraft:monster_egg",
-      "data": 5
     },
     "minecraft:note_block": {
       "id": "minecraft:noteblock"
@@ -108,9 +26,6 @@
     },
     "minecraft:dandelion": {
       "id": "minecraft:yellow_flower"
-    },
-    "minecraft:red_sandstone_slab": {
-      "id": "minecraft:double_stone_block_slab2"
     },
     "minecraft:spawner": {
       "id": "minecraft:mob_spawner"
@@ -232,39 +147,11 @@
     "minecraft:oak_button": {
       "id": "minecraft:wooden_button"
     },
-    "minecraft:chipped_anvil": {
-      "id": "minecraft:anvil",
-      "data": 4
-    },
-    "minecraft:damaged_anvil": {
-      "id": "minecraft:anvil",
-      "data": 8
-    },
     "minecraft:slime_block": {
       "id": "minecraft:slime"
     },
-    "minecraft:prismarine_bricks": {
-      "id": "minecraft:prismarine",
-      "data": 2
-    },
-    "minecraft:dark_prismarine": {
-      "id": "minecraft:prismarine",
-      "data": 1
-    },
     "minecraft:prismarine_brick_stairs": {
       "id": "minecraft:prismarine_bricks_stairs"
-    },
-    "minecraft:prismarine_slab": {
-      "id": "minecraft:double_stone_block_slab2",
-      "data": 2
-    },
-    "minecraft:prismarine_brick_slab": {
-      "id": "minecraft:double_stone_block_slab2",
-      "data": 4
-    },
-    "minecraft:dark_prismarine_slab": {
-      "id": "minecraft:double_stone_block_slab2",
-      "data": 3
     },
     "minecraft:terracotta": {
       "id": "minecraft:hardened_clay"
@@ -272,10 +159,6 @@
     "minecraft:purpur_pillar": {
       "id": "minecraft:purpur_block",
       "data": 2
-    },
-    "minecraft:purpur_slab": {
-      "id": "minecraft:double_stone_block_slab2",
-      "data": 1
     },
     "minecraft:end_stone_bricks": {
       "id": "minecraft:end_bricks"
@@ -463,10 +346,6 @@
     "minecraft:tipped_arrow": {
       "id": "minecraft:arrow"
     },
-    "minecraft:andesite_slab": {
-      "id": "minecraft:double_stone_block_slab3",
-      "data": 3
-    },
     "minecraft:andesite_wall": {
       "id": "minecraft:cobblestone_wall",
       "data": 4
@@ -475,24 +354,9 @@
       "id": "minecraft:cobblestone_wall",
       "data": 6
     },
-    "minecraft:cut_red_sandstone_slab": {
-      "id": "minecraft:double_stone_block_slab4",
-      "data": 4
-    },
-    "minecraft:cut_sandstone_slab": {
-      "id": "minecraft:double_stone_block_slab4",
-      "data": 3
-    },
-    "minecraft:diorite_slab": {
-      "id": "minecraft:double_stone_block_slab3",
-      "data": 4
-    },
     "minecraft:diorite_wall": {
       "id": "minecraft:cobblestone_wall",
       "data": 3
-    },
-    "minecraft:end_stone_brick_slab": {
-      "id": "minecraft:double_stone_block_slab3"
     },
     "minecraft:end_stone_brick_stairs": {
       "id": "minecraft:end_brick_stairs"
@@ -501,20 +365,9 @@
       "id": "minecraft:cobblestone_wall",
       "data": 10
     },
-    "minecraft:granite_slab": {
-      "id": "minecraft:double_stone_block_slab3",
-      "data": 6
-    },
     "minecraft:granite_wall": {
       "id": "minecraft:cobblestone_wall",
       "data": 2
-    },
-    "minecraft:mossy_cobblestone_slab": {
-      "id": "minecraft:double_stone_block_slab2",
-      "data": 5
-    },
-    "minecraft:mossy_stone_brick_slab": {
-      "id": "minecraft:double_stone_block_slab4"
     },
     "minecraft:mossy_stone_brick_wall": {
       "id": "minecraft:cobblestone_wall",
@@ -524,25 +377,9 @@
       "id": "minecraft:cobblestone_wall",
       "data": 9
     },
-    "minecraft:polished_andesite_slab": {
-      "id": "minecraft:double_stone_block_slab3",
-      "data": 2
-    },
-    "minecraft:polished_diorite_slab": {
-      "id": "minecraft:double_stone_block_slab3",
-      "data": 5
-    },
-    "minecraft:polished_granite_slab": {
-      "id": "minecraft:double_stone_block_slab3",
-      "data": 7
-    },
     "minecraft:prismarine_wall": {
       "id": "minecraft:cobblestone_wall",
       "data": 11
-    },
-    "minecraft:red_nether_brick_slab": {
-      "id": "minecraft:double_stone_block_slab2",
-      "data": 7
     },
     "minecraft:red_nether_brick_wall": {
       "id": "minecraft:cobblestone_wall",
@@ -556,28 +393,12 @@
       "id": "minecraft:cobblestone_wall",
       "data": 5
     },
-    "minecraft:smooth_quartz_slab": {
-      "id": "minecraft:double_stone_block_slab4",
-      "data": 1
-    },
-    "minecraft:smooth_red_sandstone_slab": {
-      "id": "minecraft:double_stone_block_slab3",
-      "data": 1
-    },
-    "minecraft:smooth_sandstone_slab": {
-      "id": "minecraft:double_stone_block_slab2",
-      "data": 6
-    },
     "minecraft:stone_brick_wall": {
       "id": "minecraft:cobblestone_wall",
       "data": 7
     },
     "minecraft:stone_stairs": {
       "id": "minecraft:normal_stone_stairs"
-    },
-    "minecraft:stone_slab": {
-      "id": "minecraft:double_stone_block_slab4",
-      "data": 2
     },
     "minecraft:stonecutter": {
       "id": "minecraft:stonecutter_block"
