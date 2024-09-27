@@ -1,8 +1,6 @@
 {
   "fmt": {
-    "options": {
-      "lineWidth": 120
-    }
+    "lineWidth": 120
   },
   "tasks": {
     "dev": "deno run --allow-net --allow-read --watch src/main.ts",

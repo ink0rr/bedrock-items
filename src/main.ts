@@ -1,9 +1,9 @@
-import { serve } from "https://deno.land/std@0.194.0/http/server.ts";
-import { cors } from "https://deno.land/x/hono@v3.3.0/middleware.ts";
-import { Hono } from "https://deno.land/x/hono@v3.3.0/mod.ts";
-import items from "../dist/items.json" assert { type: "json" };
+import { Hono } from "jsr:@hono/hono";
+import { cors } from "jsr:@hono/hono/cors";
+import { readJson } from "../utils/json.ts";
 
 const app = new Hono();
+const items = await readJson<Record<string, unknown>>("./dist/items.json");
 
 app.use("/", cors());
 
@@ -13,7 +13,6 @@ app.get("/", (ctx) => {
 
 app.get("/:id", (ctx) => {
   const { id } = ctx.req.param();
-  // @ts-ignore: indexable by string
   const item = items[id];
   if (!item) {
     return ctx.notFound();
@@ -22,4 +21,4 @@ app.get("/:id", (ctx) => {
   return ctx.json(item);
 });
 
-serve(app.fetch);
+Deno.serve(app.fetch);
