@@ -1,5 +1,5 @@
-import { cors } from "https://deno.land/x/hono@v4.1.0/middleware.ts";
-import { Hono } from "https://deno.land/x/hono@v4.1.0/mod.ts";
+import { Hono } from "jsr:@hono/hono";
+import { cors } from "jsr:@hono/hono/cors";
 import { readJson } from "../utils/json.ts";
 
 const app = new Hono();
