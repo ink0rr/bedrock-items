@@ -8,10 +8,6 @@
       "id": "minecraft:double_stone_block_slab",
       "data": 6
     },
-    "minecraft:wet_sponge": {
-      "id": "minecraft:sponge",
-      "data": 1
-    },
     "minecraft:bricks": {
       "id": "minecraft:brick_block"
     },
@@ -140,10 +136,6 @@
     "minecraft:nether_bricks": {
       "id": "minecraft:nether_brick"
     },
-    "minecraft:mossy_cobblestone_wall": {
-      "id": "minecraft:cobblestone_wall",
-      "data": 1
-    },
     "minecraft:oak_button": {
       "id": "minecraft:wooden_button"
     },
@@ -155,10 +147,6 @@
     },
     "minecraft:terracotta": {
       "id": "minecraft:hardened_clay"
-    },
-    "minecraft:purpur_pillar": {
-      "id": "minecraft:purpur_block",
-      "data": 2
     },
     "minecraft:end_stone_bricks": {
       "id": "minecraft:end_bricks"
@@ -346,56 +334,8 @@
     "minecraft:tipped_arrow": {
       "id": "minecraft:arrow"
     },
-    "minecraft:andesite_wall": {
-      "id": "minecraft:cobblestone_wall",
-      "data": 4
-    },
-    "minecraft:brick_wall": {
-      "id": "minecraft:cobblestone_wall",
-      "data": 6
-    },
-    "minecraft:diorite_wall": {
-      "id": "minecraft:cobblestone_wall",
-      "data": 3
-    },
     "minecraft:end_stone_brick_stairs": {
       "id": "minecraft:end_brick_stairs"
-    },
-    "minecraft:end_stone_brick_wall": {
-      "id": "minecraft:cobblestone_wall",
-      "data": 10
-    },
-    "minecraft:granite_wall": {
-      "id": "minecraft:cobblestone_wall",
-      "data": 2
-    },
-    "minecraft:mossy_stone_brick_wall": {
-      "id": "minecraft:cobblestone_wall",
-      "data": 8
-    },
-    "minecraft:nether_brick_wall": {
-      "id": "minecraft:cobblestone_wall",
-      "data": 9
-    },
-    "minecraft:prismarine_wall": {
-      "id": "minecraft:cobblestone_wall",
-      "data": 11
-    },
-    "minecraft:red_nether_brick_wall": {
-      "id": "minecraft:cobblestone_wall",
-      "data": 13
-    },
-    "minecraft:red_sandstone_wall": {
-      "id": "minecraft:cobblestone_wall",
-      "data": 12
-    },
-    "minecraft:sandstone_wall": {
-      "id": "minecraft:cobblestone_wall",
-      "data": 5
-    },
-    "minecraft:stone_brick_wall": {
-      "id": "minecraft:cobblestone_wall",
-      "data": 7
     },
     "minecraft:stone_stairs": {
       "id": "minecraft:normal_stone_stairs"
