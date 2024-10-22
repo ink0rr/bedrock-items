@@ -119,14 +119,6 @@
     "minecraft:oak_trapdoor": {
       "id": "minecraft:trapdoor"
     },
-    "minecraft:brown_mushroom_block": {
-      "id": "minecraft:brown_mushroom_block",
-      "data": 14
-    },
-    "minecraft:red_mushroom_block": {
-      "id": "minecraft:red_mushroom_block",
-      "data": 14
-    },
     "minecraft:melon": {
       "id": "minecraft:melon_block"
     },
@@ -242,29 +234,6 @@
     "minecraft:map": {
       "id": "minecraft:empty_map"
     },
-    "minecraft:skeleton_skull": {
-      "id": "minecraft:skull"
-    },
-    "minecraft:wither_skeleton_skull": {
-      "id": "minecraft:skull",
-      "data": 1
-    },
-    "minecraft:zombie_head": {
-      "id": "minecraft:skull",
-      "data": 2
-    },
-    "minecraft:player_head": {
-      "id": "minecraft:skull",
-      "data": 3
-    },
-    "minecraft:creeper_head": {
-      "id": "minecraft:skull",
-      "data": 4
-    },
-    "minecraft:dragon_head": {
-      "id": "minecraft:skull",
-      "data": 5
-    },
     "minecraft:nether_brick": {
       "id": "minecraft:netherbrick"
     },
@@ -342,10 +311,6 @@
     },
     "minecraft:stonecutter": {
       "id": "minecraft:stonecutter_block"
-    },
-    "minecraft:mushroom_stem": {
-      "id": "minecraft:brown_mushroom_block",
-      "data": 15
     },
     "minecraft:flowering_azalea_leaves": {
       "id": "minecraft:azalea_leaves_flowered"
