@@ -7,7 +7,7 @@ await Deno.remove("./dist", { recursive: true }).catch(() => {});
 await Deno.mkdir("./dist/textures", { recursive: true });
 
 const itemJson = await fetch(
-  "https://unpkg.com/minecraft-textures@1.21.4/dist/textures/json/1.21.4.json",
+  "https://unpkg.com/minecraft-textures@1.21.7/dist/textures/json/1.21.7.json",
 ).then((res) => res.json());
 
 const { items, textures } = await formatItems(itemJson);
