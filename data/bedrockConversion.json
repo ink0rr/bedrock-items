@@ -4,10 +4,6 @@
     "minecraft:nether_quartz_ore": {
       "id": "minecraft:quartz_ore"
     },
-    "minecraft:quartz_slab": {
-      "id": "minecraft:double_stone_block_slab",
-      "data": 6
-    },
     "minecraft:bricks": {
       "id": "minecraft:brick_block"
     },
